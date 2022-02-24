@@ -1,0 +1,36 @@
+h2 {
+    display: flex;
+    justify-content: center;
+}
+header {
+    border-bottom: 1px solid;
+    margin-bottom: 30px;
+    margin-top: 0px;
+    margin-left: 25vh;
+    margin-right: 25vh;
+    border-color:darkgrey;
+}
+.MonthDay1 {
+    background-color: 240, 240, 240;
+    border: 1px solid;
+    margin: 0%;
+    padding: 0%;
+}
+.Ordring {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+}
+.fullSchedule {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 15vh;
+}
+nav a {
+    text-decoration: none;
+    color: black;
+}
+nav a:hover {
+    color: blanchedalmond;
+}
+    
