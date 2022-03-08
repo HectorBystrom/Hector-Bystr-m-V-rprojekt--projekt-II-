@@ -1,0 +1,33 @@
+body {
+    background-image: url(light-website-backgrounds-light-color-background-images-light-color-background-images-for-website-1024x640.jpg);
+}
+h2 {
+    display: flex;
+    justify-content: center;
+}
+header {
+    border-bottom: 1px solid;
+    margin-bottom: 30px;
+    margin-top: 0px;
+    margin-left: 25vh;
+    margin-right: 25vh;
+    border-color:rgb(0, 0, 0);
+}
+.januariBild {
+display: flex;
+flex-direction: column;
+max-width: 10%;
+margin: 3%;
+}
+nav a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+nav a:hover {
+    color: blanchedalmond;
+}
+.flexing {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
