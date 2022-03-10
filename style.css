@@ -15,7 +15,12 @@ header {
     border: 1px solid;
     margin: 0%;
     padding: 0%;
+    background-image: url(light-website-backgrounds-light-color-background-images-light-color-background-images-for-website-1024x640.jpg);
+    
 }
+.MonthDay2 {
+    color: darkgrey;
+   }
 .Ordring {
     display: grid;
     grid-template-columns: 20% 20% 20% 20% 20%;

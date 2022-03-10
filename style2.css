@@ -31,3 +31,7 @@ nav a:hover {
     flex-wrap: wrap;
     justify-content: center;
 }
+footer {
+    margin-top: 75px;
+    border-bottom: 1px solid;
+}
