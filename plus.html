@@ -1,13 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="stylePlus.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="stylePlus.css" />
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="app.js"></script>
     <title>Document</title>
-</head>
-<body>
-    
-</body>
+  </head>
+  <body>
+    <header>
+      <nav><a href="index.html">Huvudmeny</a></nav>
+      <h2>Schedule-maker</h2>
+    </header>
+    <main>
+      <section id="app-root">
+        <div class="Container">
+          <div class="plusText">
+            <h1>Lägg till planen här!</h1>
+            <h3>Dina aktiviteter</h3>
+          </div>
+          <form data-list-form>
+            <input type="text" data-list-input />
+            <button>+</button>
+          </form>
+          <div id="list-root" class="placering"></div>
+        </div>
+      </section>
+    </main>
+  </body>
 </html>

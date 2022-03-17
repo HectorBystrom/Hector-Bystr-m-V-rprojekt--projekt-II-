@@ -9,6 +9,8 @@ header {
     margin-left: 25vh;
     margin-right: 25vh;
     border-color:rgb(0, 0, 0);
+    display: grid;
+    grid-template-columns: 20% 60%;
 }
 .MonthDay1 {
     background-color: 240, 240, 240;
@@ -38,4 +40,44 @@ nav a {
 nav a:hover {
     color: blanchedalmond;
 }
-    
+h3 {
+    margin-left: 10%;
+}
+li {
+    line-height: 2rem;
+    list-style: circle;
+    cursor: pointer;
+    user-select: none;
+  }
+  
+  li:hover {
+    font-weight: bolder;
+    text-decoration: line-through 2px;
+  }
+  
+  input[type="text"] {
+    margin: 1.5rem 0;
+    outline: none;
+    background: transparent;
+    border: 0;
+    color: inherit;
+    border-bottom: 1px solid currentColor;
+  }
+  
+  input[type="text"]:focus {
+    border-bottom-width: 3px;
+  }
+  
+  button {
+    background: transparent;
+    border: 0;
+    font-size: 1.5rem;
+    color: inherit;
+    cursor: pointer;
+  }
+  
+  button:hover,
+  button:focus {
+    font-weight: bolder;
+    outline: none;
+  }

@@ -1,3 +1,18 @@
 body {
     background-image: url(light-website-backgrounds-light-color-background-images-light-color-background-images-for-website-1024x640.jpg);
 }
+main {
+    margin-left: 25vh;
+    margin-right: 25vh;
+}
+.placering {
+    display: flex;
+    justify-content: start;
+    border-style: solid;
+    margin-left: 100vh;
+}
+.plusText {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 21vh;
+}
