@@ -35,3 +35,6 @@ footer {
     margin-top: 75px;
     border-bottom: 1px solid;
 }
+.imgSizer:hover{
+    transform: scale(1.2);
+    }

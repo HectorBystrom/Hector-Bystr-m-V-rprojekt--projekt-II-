@@ -16,3 +16,10 @@ main {
     justify-content: space-between;
     margin-right: 21vh;
 }
+.Container {
+    display: flex;
+    flex-direction: column;
+}
+li {
+    list-style: none;
+}

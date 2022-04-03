@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="stylePlus.css" />
     <link rel="stylesheet" href="style.css" />
     <script defer src="app.js"></script>
-    <title>Document</title>
+    <title>Plan</title>
   </head>
   <body>
     <header>
@@ -19,14 +19,20 @@
         <div class="Container">
           <div class="plusText">
             <h1>Lägg till planen här!</h1>
-            <h3>Dina aktiviteter</h3>
+            
+            <h4>Dina aktiviteter</h4>
           </div>
+          <form data-list-form-date>
+          <input type="text" placeholder="Dag / Månad / År" data-list-input-date />
+          <button>+</button>
+        </form>
           <form data-list-form>
-            <input type="text" data-list-input />
-            <button>+</button>
-          </form>
-          <div id="list-root" class="placering"></div>
-        </div>
+              <input type="text" placeholder="Vad är din plan?" data-list-input />
+              <button>+</button>
+            </form>
+            <div id="list-root" class="placering"></div>
+            <div id="results"></div>
+          </div>
       </section>
     </main>
   </body>

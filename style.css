@@ -11,6 +11,8 @@ header {
     border-color:rgb(0, 0, 0);
     display: grid;
     grid-template-columns: 20% 60%;
+    top: 0px;
+    position:sticky;
 }
 .MonthDay1 {
     background-color: 240, 240, 240;
@@ -44,40 +46,36 @@ h3 {
     margin-left: 10%;
 }
 li {
-    line-height: 2rem;
-    list-style: circle;
-    cursor: pointer;
-    user-select: none;
+  user-select: none;
+  line-height: 1.5rem;
   }
   
   li:hover {
-    font-weight: bolder;
+    font-weight: bold;
     text-decoration: line-through 2px;
   }
   
-  input[type="text"] {
-    margin: 1.5rem 0;
-    outline: none;
-    background: transparent;
+  input {
     border: 0;
-    color: inherit;
-    border-bottom: 1px solid currentColor;
+    color: black;
+    border-bottom: solid 1px;
+    margin: 5vh 1px;
+    background: transparent;
+    outline: none;
   }
   
-  input[type="text"]:focus {
-    border-bottom-width: 3px;
+  input:focus {
+    border-bottom-width: 2px;
   }
   
   button {
+    color: black;
     background: transparent;
-    border: 0;
-    font-size: 1.5rem;
-    color: inherit;
-    cursor: pointer;
+    border: 1;
+    font-size: 1.3rem;
   }
   
-  button:hover,
-  button:focus {
-    font-weight: bolder;
-    outline: none;
+  button:hover{
+    color: antiquewhite;
   }
+
